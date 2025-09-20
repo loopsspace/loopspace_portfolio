@@ -3,7 +3,7 @@ import { Mountain, Map, Globe, Compass, ArrowRight, Sparkles } from 'lucide-reac
 
 const AboutSection = () => {
   return (
-    <section className="relative py-20 md:py-32 overflow-hidden mt-[-20px] md:mt-20" >
+    <section className="relative py-15 md:py-12 overflow-hidden mt-10 md:mt-36" >
       {/* Enhanced decorative elements */}
      
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import { MdOutlinePermMedia } from "react-icons/md";
+import { FaFigma, FaMobileAlt } from "react-icons/fa";
 
 const BentoGrid = () => {
   return (
@@ -46,9 +47,7 @@ const BentoGrid = () => {
         <div className="bg-gradient-to-br from-green-800/20 to-green-700/10 border border-green-500/30 rounded-2xl p-6 backdrop-blur-sm hover:border-green-400/50 transition-all duration-300 group relative">
           <div className="h-full flex flex-col justify-center items-center text-center">
             <div className="w-12 h-12 bg-green-500/20 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-              <svg className="w-6 h-6 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v12a4 4 0 004 4h4a2 2 0 002-2V5z" />
-              </svg>
+            <FaFigma className="w-6 h-6 text-green-400" />
             </div>
             <h4 className="text-lg font-bold text-green-400 mb-2 group-hover:text-green-300 transition-colors">
               UI/UX Design
@@ -76,9 +75,7 @@ const BentoGrid = () => {
         <div className="bg-gradient-to-br from-green-800/20 to-green-700/10 border border-green-500/30 rounded-2xl p-6 backdrop-blur-sm hover:border-green-400/50 transition-all duration-300 group relative">
           <div className="h-full flex flex-col justify-center items-center text-center">
             <div className="w-12 h-12 bg-green-500/20 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-              <svg className="w-6 h-6 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
+            <FaMobileAlt className="w-6 h-6 text-green-400" />
             </div>
             <h4 className="text-lg font-bold text-green-400 mb-2 group-hover:text-green-300 transition-colors">
               App Development
