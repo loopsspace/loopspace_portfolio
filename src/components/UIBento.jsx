@@ -33,7 +33,7 @@ const UIBento = () => {
           <div className="relative z-10 h-full flex flex-col justify-end p-4">
             <div>
               <h4 className="text-3xl font-bold text-white mb-2">Hazzle Free Hosting</h4>
-              <p className="text-gray-100 text-sm">User-friendly design</p>
+              <p className="text-gray-100 text-sm">Providing continuous deployments & integrations</p>
             </div>
             
           </div>
