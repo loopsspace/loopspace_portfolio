@@ -16,7 +16,7 @@ const UIBento = () => {
           <div className="relative z-10 h-full flex flex-col justify-end p-6">
             <div>
               <h3 className="text-3xl font-bold text-white mb-3">AI & Automation</h3>
-              <p className="text-gray-100 text-base">Automated workflows for your business</p>
+              <p className="text-gray-100 text-sm">Automated workflows for your business</p>
             </div>
             
           </div>
