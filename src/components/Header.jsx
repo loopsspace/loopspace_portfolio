@@ -9,7 +9,7 @@ const Header = () => {
             {/* Grid pattern overlay */}
             
 
-            <div className="container max-w-6xl mx-auto flex flex-col md:flex-row items-left justify-between gap-12 md:gap-24 lg:gap-24 relative z-20">
+            <div className="container max-w-7xl mx-auto flex flex-col md:flex-row items-left justify-between gap-12 md:gap-24 lg:gap-24 relative z-20">
                 {/* Text Content - Left Side */}
                 <div className="flex-1 text-left md:text-left order-2 md:order-1">
                     <div className="mb-6 inline-block">
@@ -60,7 +60,7 @@ const Header = () => {
                         {/* Main image */}
                         <div className="relative z-30 w-full h-full flex items-center justify-center">
                             <img 
-                                src="/hero3.png" 
+                                src="/hero10.png" 
                                 alt="Future Technology" 
                                 className="w-full h-full object-contain transform hover:scale-105 transition-transform duration-700"
                                 style={{
