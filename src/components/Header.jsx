@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => {
     return (
-        <section className="min-h-screen flex items-center justify-center px-4 md:px-8 relative z-10 overflow-hidden bg-transparent mt-20 md:mt-20">
+        <section className="min-h-screen flex items-center justify-center px-4 md:px-8 relative z-10 overflow-hidden bg-transparent mt-24 md:mt-20">
             {/* Background elements */}
             
 
