@@ -12,21 +12,13 @@ const UIBento = () => {
             className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />
           <div className="absolute inset-0 bg-gradient-to-br from-green-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
-          <div className="relative z-10 h-full flex flex-col justify-between p-6">
+          <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
+          <div className="relative z-10 h-full flex flex-col justify-end p-6">
             <div>
-              <h3 className="text-xl font-bold text-white mb-2">Modern Dashboard</h3>
-              <p className="text-gray-200 text-sm">Clean, intuitive interface design</p>
+              <h3 className="text-3xl font-bold text-white mb-3">AI & Automation</h3>
+              <p className="text-gray-100 text-base">Automated workflows for your business</p>
             </div>
-            <div className="flex items-center justify-between">
-              <div className="flex items-center space-x-2">
-                <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-                <span className="text-green-400 text-sm font-medium">Featured</span>
-              </div>
-              <div className="text-green-400 text-sm font-medium group-hover:text-green-300 transition-colors">
-                View Details →
-              </div>
-            </div>
+            
           </div>
         </div>
 
@@ -37,16 +29,13 @@ const UIBento = () => {
             alt="UI Design 2" 
             className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
-          <div className="relative z-10 h-full flex flex-col justify-between p-4">
+          <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
+          <div className="relative z-10 h-full flex flex-col justify-end p-4">
             <div>
-              <h4 className="text-sm font-bold text-white">Mobile App</h4>
-              <p className="text-gray-200 text-xs">User-friendly design</p>
+              <h4 className="text-3xl font-bold text-white mb-2">Hazzle Free Hosting</h4>
+              <p className="text-gray-100 text-sm">User-friendly design</p>
             </div>
-            <div className="flex items-center space-x-2">
-              <div className="w-2 h-2 bg-green-400 rounded-full"></div>
-              <span className="text-green-400 text-xs">In Progress</span>
-            </div>
+            
           </div>
         </div>
 
@@ -57,16 +46,13 @@ const UIBento = () => {
             alt="UI Design 3" 
             className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
-          <div className="relative z-10 h-full flex flex-col justify-between p-4">
+          <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
+          <div className="relative z-10 h-full flex flex-col justify-end p-4">
             <div>
-              <h4 className="text-sm font-bold text-white">Web Portal</h4>
-              <p className="text-gray-200 text-xs">Professional layout</p>
+              <h4 className="text-3xl font-bold text-white mb-2">Custom Softwares</h4>
+              <p className="text-gray-100 text-sm">Providing custom dashboard for your business</p>
             </div>
-            <div className="flex items-center space-x-2">
-              <div className="w-2 h-2 bg-green-400 rounded-full"></div>
-              <span className="text-green-400 text-xs">Completed</span>
-            </div>
+            
           </div>
         </div>
 
@@ -77,16 +63,13 @@ const UIBento = () => {
             alt="UI Design 4" 
             className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
-          <div className="relative z-10 h-full flex flex-col justify-between p-4">
+          <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
+          <div className="relative z-10 h-full flex flex-col justify-end p-4">
             <div>
-              <h4 className="text-sm font-bold text-white">E-commerce Platform</h4>
-              <p className="text-gray-200 text-xs">Advanced UI System</p>
+              <h4 className="text-3xl font-bold text-white mb-2">Web Mail Configurations</h4>
+              <p className="text-gray-100 text-sm">Have full control over your workspace</p>
             </div>
-            <div className="flex items-center space-x-2">
-              <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-              <span className="text-green-400 text-xs">Live Project</span>
-            </div>
+            
           </div>
         </div>
 
@@ -97,16 +80,13 @@ const UIBento = () => {
             alt="UI Design 6" 
             className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
-          <div className="relative z-10 h-full flex flex-col justify-between p-4">
+          <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
+          <div className="relative z-10 h-full flex flex-col justify-end p-4">
             <div>
-              <h4 className="text-sm font-bold text-white">Creative Design</h4>
-              <p className="text-gray-200 text-xs">Innovative UI solution</p>
+              <h4 className="text-3xl font-bold text-white mb-2">Customized UI Design</h4>
+              <p className="text-gray-100 text-sm">Modern & sleek UI solution</p>
             </div>
-            <div className="flex items-center space-x-2">
-              <div className="w-2 h-2 bg-green-400 rounded-full"></div>
-              <span className="text-green-400 text-xs">New Project</span>
-            </div>
+            
           </div>
         </div>
       </div>
