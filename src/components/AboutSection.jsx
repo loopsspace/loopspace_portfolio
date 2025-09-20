@@ -53,7 +53,7 @@ const AboutSection = () => {
               </h2>
               
               <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-                Founded in 2010, we've been transforming travel dreams into reality for over a decade. Our team of passionate explorers and local experts create journeys that go beyond the ordinary.
+                 We've been transforming all the entrepreneur dreams into reality from scratch. Our team of passionate developers and experts create products that go beyond the ordinary.
               </p>
               
               <div className="space-y-6 mb-10">

@@ -19,18 +19,10 @@ const BentoGrid = () => {
                 Web Development
               </h3>
               <p className="text-gray-300 text-base leading-relaxed">
-                Modern, responsive websites and web applications built with cutting-edge technologies. From concept to deployment, we create digital experiences that engage and convert.
+                Modern, responsive websites and web applications built with cutting-edge technologies.
               </p>
             </div>
-            <div className="mt-6 flex items-center justify-between">
-              <div className="flex items-center space-x-2">
-                <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-                <span className="text-green-400 text-sm font-medium">Available Now</span>
-              </div>
-              <div className="text-green-400 text-sm font-medium group-hover:text-green-300 transition-colors">
-                Learn More →
-              </div>
-            </div>
+            
           </div>
         </div>
 
