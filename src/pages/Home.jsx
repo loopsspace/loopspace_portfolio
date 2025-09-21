@@ -3,6 +3,7 @@ import GlassmorphismNavbar from "../components/Navbar";
 import BentoGrid from "../components/BentoGrid";
 import UIBento from "../components/UIBento";
 import AboutSection from "../components/AboutSection";
+import TeamShowcase from "../components/TeamShowcase";
          
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
             <UIBento />
             <AboutSection />
             <BentoGrid />
+            <TeamShowcase />
             
             </div>
         
