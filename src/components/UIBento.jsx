@@ -5,7 +5,7 @@ const UIBento = () => {
     <div className="w-full max-w-7xl mx-auto p-6">
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6">
         {/* UI1 - Large Wide Card */}
-        <div className="md:col-span-2 lg:col-span-2 bg-gradient-to-br from-green-900/20 to-green-800/10 border border-green-500/30 rounded-2xl backdrop-blur-sm hover:border-green-400/50 transition-all duration-300 group relative overflow-hidden aspect-square md:aspect-[4/2]">
+        <div className="md:col-span-2 lg:col-span-2 bg-gradient-to-br from-green-900/20 to-green-800/10 border border-green-500/10 rounded-2xl backdrop-blur-sm hover:border-green-400/50 transition-all duration-300 group relative overflow-hidden aspect-square md:aspect-[4/2]">
           <img 
             src="/ui1.png" 
             alt="UI Design 1" 
@@ -23,7 +23,7 @@ const UIBento = () => {
         </div>
 
         {/* UI2 - Square Card (Mobile App) */}
-        <div className="bg-gradient-to-br from-green-800/20 to-green-700/10 border border-green-500/30 rounded-2xl backdrop-blur-sm hover:border-green-400/50 transition-all duration-300 group relative overflow-hidden aspect-square">
+        <div className="bg-gradient-to-br from-green-800/20 to-green-700/10 border border-green-500/10 rounded-2xl backdrop-blur-sm hover:border-green-400/50 transition-all duration-300 group relative overflow-hidden aspect-square">
           <img 
             src="/ui2.png" 
             alt="UI Design 2" 
@@ -40,7 +40,7 @@ const UIBento = () => {
         </div>
 
         {/* UI3 - Square Card (Web Portal) */}
-        <div className="bg-gradient-to-br from-green-800/20 to-green-700/10 border border-green-500/30 rounded-2xl backdrop-blur-sm hover:border-green-400/50 transition-all duration-300 group relative overflow-hidden aspect-square">
+        <div className="bg-gradient-to-br from-green-800/20 to-green-700/10 border border-green-500/10 rounded-2xl backdrop-blur-sm hover:border-green-400/50 transition-all duration-300 group relative overflow-hidden aspect-square">
           <img 
             src="/ui11.jpg" 
             alt="UI Design 3" 
@@ -57,7 +57,7 @@ const UIBento = () => {
         </div>
 
         {/* UI4 - Square Card (E-commerce) */}
-        <div className="bg-gradient-to-br from-green-800/20 to-green-700/10 border border-green-500/30 rounded-2xl backdrop-blur-sm hover:border-green-400/50 transition-all duration-300 group relative overflow-hidden aspect-square">
+        <div className="bg-gradient-to-br from-green-800/20 to-green-700/10 border border-green-500/10 rounded-2xl backdrop-blur-sm hover:border-green-400/50 transition-all duration-300 group relative overflow-hidden aspect-square">
           <img 
             src="/ui12.jpg" 
             alt="UI Design 4" 
@@ -74,9 +74,9 @@ const UIBento = () => {
         </div>
 
         {/* UI6 - Square Card (Creative Design) */}
-        <div className="bg-gradient-to-br from-green-800/20 to-green-700/10 border border-green-500/30 rounded-2xl backdrop-blur-sm hover:border-green-400/50 transition-all duration-300 group relative overflow-hidden aspect-square">
+        <div className="bg-gradient-to-br from-green-800/20 to-green-700/10 border border-green-500/10 rounded-2xl backdrop-blur-sm hover:border-green-400/50 transition-all duration-300 group relative overflow-hidden aspect-square">
           <img 
-            src="/ui10.jpg" 
+            src="/ui15.jpg" 
             alt="UI Design 6" 
             className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />
