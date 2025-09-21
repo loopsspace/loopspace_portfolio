@@ -41,7 +41,7 @@ const About = () => {
                 <div className="flex-1 text-left md:text-left order-2 md:order-2">
                     
                     
-                <h2 className="text-3xl md:text-4xl lg:text-4xl font-black text-white mb-8 mt-[-5%] leading-tight pt-4">
+                <h2 className="text-3xl md:text-4xl lg:text-6xl font-black text-white leading-tight pt-4 w-full">
                 We Craft{' '}
                 <span className="relative inline-block">
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-200 via-green-300 to-green-400">

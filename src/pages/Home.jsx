@@ -1,8 +1,8 @@
 import Header from "../components/Header";      
 import GlassmorphismNavbar from "../components/Navbar";
 import BentoGrid from "../components/BentoGrid";
-import About from "../components/About";
 import UIBento from "../components/UIBento";
+import AboutSection from "../components/AboutSection";
          
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
         <GlassmorphismNavbar />
             <Header />
             <UIBento />
-            <About />
+            <AboutSection />
             <BentoGrid />
             
             </div>
