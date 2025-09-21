@@ -25,7 +25,7 @@ const About = () => {
             
             <div className="container max-w-7xl mx-auto">
                 <motion.div 
-                    className="flex flex-col md:flex-row items-center gap-12 md:gap-20"
+                    className="flex flex-col md:flex-row items-center gap-12 md:gap-8 lg:gap-2"
                     initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
@@ -43,7 +43,7 @@ const About = () => {
                             {/* Floating background elements */}
                            
                             {/* Main image container */}
-                            <div className="relative z-10 flex justify-center mt-[-65px] mb-[-60px]">
+                            <div className="relative z-10 flex justify-center mt-[-65px] mb-[-60px] lg:mr-[-30%]">
                                 <img 
                                     src="/infinity2.png" 
                                     alt="About LoopSpace" 
@@ -80,7 +80,7 @@ const About = () => {
 
                         {/* Main heading */}
                         <motion.h2 
-                            className="text-left text-3xl md:text-3xl lg:text-4xl font-bold leading-tight mb-6 bg-gradient-to-r from-white via-green-100 to-green-400 bg-clip-text text-transparent"
+                            className="text-left text-2xl md:text-3xl lg:text-4xl font-bold leading-tight mb-6 bg-gradient-to-r from-white via-green-100 to-green-400 bg-clip-text text-transparent"
                             style={{ fontFamily: 'LEMONMILK, sans-serif' }}
                             initial={{ opacity: 0, y: 30 }}
                             whileInView={{ opacity: 1, y: 0 }}
