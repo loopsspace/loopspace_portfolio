@@ -76,7 +76,7 @@ const UIBento = () => {
         {/* UI6 - Square Card (Creative Design) */}
         <div className="bg-gradient-to-br from-green-800/20 to-green-700/10 border border-green-500/30 rounded-2xl backdrop-blur-sm hover:border-green-400/50 transition-all duration-300 group relative overflow-hidden aspect-square">
           <img 
-            src="/ui6.png" 
+            src="/ui10.jpg" 
             alt="UI Design 6" 
             className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />
