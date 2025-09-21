@@ -5,7 +5,7 @@ import { IoCodeSlashSharp } from "react-icons/io5";
 
 const BentoGrid = () => {
   return (
-    <div className="w-full max-w-6xl mx-auto p-6 mb-[4%] md:mb-[4%]">
+    <div id="services" className="w-full max-w-6xl mx-auto p-6 mb-[4%] md:mb-[4%]">
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6">
         {/* Row 1 */}
         <div className="md:col-span-2 lg:col-span-2 bg-gradient-to-br from-gray-800/50 to-gray-900/20 border border-green-500/10 rounded-2xl p-8 backdrop-blur-sm hover:border-white/50 transition-all duration-300 group relative overflow-hidden">

@@ -20,7 +20,7 @@ const TeamShowcase = () => {
   const currentTeam = activeTab === 'developers' ? developers : designers;
 
   return (
-    <section className="w-full max-w-7xl mx-auto px-6 py-16">
+    <section id="team" className="w-full max-w-7xl mx-auto px-6 py-16">
       
 
       {/* Tab Navigation */}
