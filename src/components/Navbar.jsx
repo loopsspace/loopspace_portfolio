@@ -45,23 +45,23 @@ const GlassmorphismNavbar = () => {
 
     return (
         <>
-            <nav className={`fixed top-4 left-1/2 -translate-x-1/2 z-50 transition-all duration-500 ease-out w-[95%] max-w-4xl rounded-[60px] ${
-                isScrolled 
-                    ? 'backdrop-blur-xl bg-white/5 border border-white/10 shadow-2xl' 
-                    : 'backdrop-blur-md bg-white/5 border border-white/10'
-            }`}>
-                <div className="w-full px-4 sm:px-6 lg:px-8">
-                    <div className="flex items-center justify-between h-16 lg:h-20">
-                        
-                        {/* Logo */}
-                        <div className="flex items-center space-x-3">
-                            <img src="/Frame17.svg" alt="Logo" className="h-48 w-48 object-contain" />
-                        </div>
+        <nav className={`fixed top-4 left-1/2 -translate-x-1/2 z-50 transition-all duration-500 ease-out w-[95%] max-w-4xl rounded-[60px] ${
+            isScrolled 
+                ? 'backdrop-blur-xl bg-white/5 border border-white/10 shadow-2xl' 
+                : 'backdrop-blur-md bg-white/5 border border-white/10'
+        }`}>
+            <div className="w-full px-4 sm:px-6 lg:px-8">
+                <div className="flex items-center justify-between h-16 lg:h-20">
+                    
+                    {/* Logo */}
+                    <div className="flex items-center space-x-3">
+                        <img src="/Frame17.svg" alt="Logo" className="h-48 w-48 object-contain" />
+                    </div>
 
-                         {/* Desktop Navigation */}
-                         <div className="hidden lg:flex items-center space-x-1">
-                             {navItems.map((item, index) => (
-                                 <button
+                    {/* Desktop Navigation */}
+                    <div className="hidden lg:flex items-center space-x-1">
+                        {navItems.map((item, index) => (
+                                <button
                                      key={index}
                                      className="px-4 py-2 rounded-xl text-white/90 hover:text-white hover:bg-white/10 transition-all duration-300 ease-out font-medium"
                                      onClick={() => {
@@ -73,21 +73,21 @@ const GlassmorphismNavbar = () => {
                                      }}
                                  >
                                      {item.name}
-                                 </button>
-                             ))}
-                         </div>
+                                </button>
+                        ))}
+                    </div>
 
                          {/* Mobile menu button */}
-                         <div className="flex items-center space-x-4">
-                             <button
-                                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                    <div className="flex items-center space-x-4">
+                        <button
+                            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                                  className="lg:hidden p-2 rounded-xl text-white hover:bg-white/10 transition-colors duration-200 relative z-[55]"
-                             >
-                                 {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-                             </button>
-                         </div>
+                        >
+                            {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+                        </button>
                     </div>
                 </div>
+            </div>
             </nav>
 
              {/* Mobile Menu Overlay */}
@@ -122,8 +122,8 @@ const GlassmorphismNavbar = () => {
 
                          {/* Navigation Items */}
                          <div className="flex flex-col p-6 space-y-2">
-                             {navItems.map((item, index) => (
-                                 <button
+                    {navItems.map((item, index) => (
+                            <button
                                      key={index}
                                      className="flex items-center w-full px-4 py-4 text-white/90 hover:text-white hover:bg-white/10 rounded-2xl transition-all duration-200 font-medium text-base group"
                                      onClick={() => {
@@ -135,7 +135,7 @@ const GlassmorphismNavbar = () => {
                                      }}
                                  >
                                      <span className="text-left">{item.name}</span>
-                                 </button>
+                            </button>
                              ))}
                          </div>
 
@@ -176,8 +176,8 @@ const GlassmorphismNavbar = () => {
                                     </a>
                                 </div>
                             </div>
+                                </div>
                         </div>
-                    </div>
                 </div>
             </div>
 
