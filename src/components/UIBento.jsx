@@ -15,7 +15,11 @@ const UIBento = () => {
           <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
           <div className="relative z-10 h-full flex flex-col justify-end p-6">
             <div>
-              <h3 className="text-3xl font-bold text-white mb-3">AI & Automation</h3>
+              <h3 className="text-3xl font-bold text-white mb-3"style={{
+                fontFamily: 'LEMONMILK, sans-serif',
+                
+                lineHeight: '1.3'
+            }}>AI & Automation</h3>
               <p className="text-gray-100 text-sm">Automated workflows for your business</p>
             </div>
             
@@ -32,7 +36,13 @@ const UIBento = () => {
           <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
           <div className="relative z-10 h-full flex flex-col justify-end p-4">
             <div>
-              <h4 className="text-3xl font-bold text-white mb-2">Hazzle Free Hosting</h4>
+              <h4 className="text-3xl font-bold text-white mb-2"
+              style={{
+                fontFamily: 'LEMONMILK, sans-serif',
+                
+                lineHeight: '1.3'
+            }}>
+              Cloud Hosting</h4>
               <p className="text-gray-100 text-sm">Continuous deployments & integrations</p>
             </div>
             
@@ -49,7 +59,13 @@ const UIBento = () => {
           <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
           <div className="relative z-10 h-full flex flex-col justify-end p-4">
             <div>
-              <h4 className="text-3xl font-bold text-white mb-2">Custom Softwares</h4>
+              <h4 className="text-3xl font-bold text-white mb-2"
+              style={{
+                fontFamily: 'LEMONMILK, sans-serif',
+                
+                lineHeight: '1.3'
+            }}>
+              Custom Softwares</h4>
               <p className="text-gray-100 text-sm">Dedicated dashboard for your business</p>
             </div>
             
@@ -66,7 +82,12 @@ const UIBento = () => {
           <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
           <div className="relative z-10 h-full flex flex-col justify-end p-4">
             <div>
-              <h4 className="text-3xl font-bold text-white mb-2">Web Mail Configurations</h4>
+              <h4 className="text-3xl font-bold text-white mb-2"
+              style={{
+                fontFamily: 'LEMONMILK, sans-serif',
+                
+                lineHeight: '1.3'
+            }}>Web Mail Configurations</h4>
               <p className="text-gray-100 text-sm">Have full control over your workspace</p>
             </div>
             
@@ -83,7 +104,13 @@ const UIBento = () => {
           <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
           <div className="relative z-10 h-full flex flex-col justify-end p-4">
             <div>
-              <h4 className="text-3xl font-bold text-white mb-2">Customized UI Design</h4>
+              <h4 className="text-3xl font-bold text-white mb-2"
+              style={{
+                fontFamily: 'LEMONMILK, sans-serif',
+                
+                lineHeight: '1.3'
+            }}>
+              Custom UI Design</h4>
               <p className="text-gray-100 text-sm">Modern & sleek UI solution</p>
             </div>
             
