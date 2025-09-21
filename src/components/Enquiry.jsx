@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { motion } from 'framer-motion';
 import { FaInstagram, FaWhatsapp, FaPhone, FaEnvelope, FaLinkedin } from 'react-icons/fa';
 import toast, { Toaster } from 'react-hot-toast';
 import { nileOperations } from '../context/spreadsheet';
@@ -127,29 +128,100 @@ const Enquiry = () => {
       />
 
       {/* Background effects */}
-      <div className="absolute top-1/4 left-0 w-1/3 h-1/3 rounded-full bg-green-500/10 blur-3xl"></div>
-      <div className="absolute bottom-1/4 right-0 w-1/4 h-1/4 rounded-full bg-blue-500/10 blur-3xl"></div>
+      <motion.div 
+        className="absolute top-1/4 left-0 w-1/3 h-1/3 rounded-full bg-green-500/10 blur-3xl"
+        animate={{ 
+          scale: [1, 1.2, 1],
+          opacity: [0.3, 0.6, 0.3]
+        }}
+        transition={{ 
+          duration: 8,
+          repeat: Infinity,
+          ease: "easeInOut"
+        }}
+      ></motion.div>
+      <motion.div 
+        className="absolute bottom-1/4 right-0 w-1/4 h-1/4 rounded-full bg-blue-500/10 blur-3xl"
+        animate={{ 
+          scale: [1, 1.3, 1],
+          opacity: [0.2, 0.5, 0.2]
+        }}
+        transition={{ 
+          duration: 10,
+          repeat: Infinity,
+          ease: "easeInOut"
+        }}
+      ></motion.div>
 
       <div className="container mx-auto max-w-5xl relative z-10">
         {/* Section Header */}
-        <div className="mb-16 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-white via-green-100 to-green-400 bg-clip-text text-transparent"
-              style={{ fontFamily: 'LEMONMILK, sans-serif' }}>
+        <motion.div 
+          className="mb-16 text-center"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+        >
+          <motion.h1 
+            className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-white via-green-100 to-green-400 bg-clip-text text-transparent"
+            style={{ fontFamily: 'LEMONMILK, sans-serif' }}
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+          >
             Get In Touch
-          </h1>
-          <p className="text-gray-300 max-w-md mx-auto">
+          </motion.h1>
+          <motion.p 
+            className="text-gray-300 max-w-md mx-auto"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+          >
             Let's collaborate to bring your vision to life. We're just a message away.
-          </p>
-          <div className="h-px w-16 bg-gradient-to-r from-transparent via-green-500 to-transparent mx-auto mt-8"></div>
-        </div>
+          </motion.p>
+          <motion.div 
+            className="h-px w-16 bg-gradient-to-r from-transparent via-green-500 to-transparent mx-auto mt-8"
+            initial={{ scaleX: 0 }}
+            whileInView={{ scaleX: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 1, delay: 0.6 }}
+          ></motion.div>
+        </motion.div>
 
         {/* Main Content */}
-        <div className="grid md:grid-cols-2 gap-10 items-start">
+        <motion.div 
+          className="grid md:grid-cols-2 gap-10 items-start"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+        >
           {/* Contact Form */}
-          <div className="bg-gradient-to-br from-gray-800/30 to-gray-900/20 border border-gray-700/50 rounded-2xl p-8 backdrop-blur-sm shadow-2xl hover:border-green-500/50 transition-all duration-300">
-            <h3 className="text-2xl font-semibold mb-6 text-white">Send a Message</h3>
+          <motion.div 
+            className="bg-gradient-to-br from-gray-800/30 to-gray-900/20 border border-gray-700/50 rounded-2xl p-8 backdrop-blur-sm shadow-2xl hover:border-green-500/50 transition-all duration-300"
+            whileHover={{ scale: 1.02, y: -5 }}
+            transition={{ duration: 0.3 }}
+          >
+            <motion.h3 
+              className="text-2xl font-semibold mb-6 text-white"
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.4 }}
+            >
+              Send a Message
+            </motion.h3>
 
-            <form onSubmit={handleSubmit} className="space-y-6">
+            <motion.form 
+              onSubmit={handleSubmit} 
+              className="space-y-6"
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.6 }}
+            >
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">Full Name</label>
                 <input
@@ -189,7 +261,7 @@ const Enquiry = () => {
                   required
                 ></textarea>
               </div>
-              <button
+              <motion.button
                 type="submit"
                 disabled={isSubmitting}
                 className={`w-full px-6 py-3 ${
@@ -197,6 +269,8 @@ const Enquiry = () => {
                     ? 'bg-green-700 cursor-not-allowed' 
                     : 'inset-0 bg-gradient-to-r from-green-500/30 to-green/10'
                 } text-white font-medium rounded-xl transition-all duration-300 shadow-green-600/40 hover:shadow-green-600/40 flex items-center justify-center group`}
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
               >
                 {isSubmitting ? (
                   <div className="flex items-center">
@@ -211,26 +285,50 @@ const Enquiry = () => {
                     </svg>
                   </>
                 )}
-              </button>
-            </form>
-          </div>
+              </motion.button>
+            </motion.form>
+          </motion.div>
 
           {/* Contact Methods */}
-          <div className="space-y-6">
-            <h3 className="text-2xl font-semibold mb-8 text-center text-white">Connect With Us</h3>
+          <motion.div 
+            className="space-y-6"
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+          >
+            <motion.h3 
+              className="text-2xl font-semibold mb-8 text-center text-white"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.6 }}
+            >
+              Connect With Us
+            </motion.h3>
             
             <div className="grid grid-cols-1 gap-4">
               {contactMethods.map((method, index) => (
-                <a
+                <motion.a
                   key={index}
                   href={method.href}
                   target="_blank"
                   rel="noopener noreferrer"
                   className={`p-4 ${method.bgColor} ${method.borderColor} border rounded-xl flex items-center transition-all duration-300 ${method.hoverBg} hover:scale-105 hover:shadow-lg`}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.6, delay: 0.8 + index * 0.1 }}
+                  whileHover={{ scale: 1.05, y: -2 }}
+                  whileTap={{ scale: 0.95 }}
                 >
-                  <div className={`p-3 rounded-xl ${method.bgColor} ${method.color} mr-4`}>
+                  <motion.div 
+                    className={`p-3 rounded-xl ${method.bgColor} ${method.color} mr-4`}
+                    whileHover={{ rotate: 5 }}
+                    transition={{ duration: 0.2 }}
+                  >
                     {method.icon}
-                  </div>
+                  </motion.div>
                   <div>
                     <p className="text-sm text-gray-400">Connect via</p>
                     <p className={`text-lg font-medium ${method.color}`}>{method.name}</p>
@@ -238,11 +336,18 @@ const Enquiry = () => {
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-auto text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>
-                </a>
+                </motion.a>
               ))}
             </div>
             
-            <div className="mt-10 bg-gradient-to-br from-gray-800/30 to-gray-900/20 border border-gray-700/50 rounded-xl p-6 backdrop-blur-sm">
+            <motion.div 
+              className="mt-10 bg-gradient-to-br from-gray-800/30 to-gray-900/20 border border-gray-700/50 rounded-xl p-6 backdrop-blur-sm"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 1.2 }}
+              whileHover={{ scale: 1.02 }}
+            >
               <h4 className="text-lg font-medium mb-4 text-white">Business Hours</h4>
               <ul className="space-y-3 text-gray-300">
                 <li className="flex flex-col sm:flex-row sm:justify-between">
@@ -255,9 +360,9 @@ const Enquiry = () => {
                   <span className="text-red-400">Closed</span>
                 </li>
               </ul>
-            </div>
-          </div>
-        </div>
+            </motion.div>
+          </motion.div>
+        </motion.div>
       </div>
     </section>
   );
