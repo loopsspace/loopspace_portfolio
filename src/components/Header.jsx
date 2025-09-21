@@ -13,7 +13,7 @@ const Header = () => {
                 {/* Text Content - Left Side */}
                 <div className="flex-1 text-left md:text-left order-2 md:order-1">
                     <div className="mb-6 inline-block">
-                        <span className="text-xs font-medium text-green-400 bg-green-400/10 px-3 py-1.5 rounded-full backdrop-blur-sm flex items-center gap-2">
+                        <span className="text-xs font-medium text-white bg-green-400/10 px-3 py-1.5 rounded-full backdrop-blur-sm flex items-center gap-2">
                             Innovation is Here
                         </span>
                     </div>
