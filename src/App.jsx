@@ -1,8 +1,11 @@
 import { useState } from 'react'
 import Home from './pages/Home'
+import EnquiryAdmin from './components/EnquiryAdmin'
 
 
 function App() {
+  // Check if admin panel should be shown
+  const showAdmin = window.location.search.includes('admin=true');
 
   return (
     <>
@@ -15,7 +18,7 @@ function App() {
       }}
     />
   
-    <Home />
+    {showAdmin ? <EnquiryAdmin /> : <Home />}
   </div>
     </>
   )

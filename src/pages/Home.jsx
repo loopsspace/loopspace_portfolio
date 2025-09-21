@@ -4,6 +4,7 @@ import BentoGrid from "../components/BentoGrid";
 import UIBento from "../components/UIBento";
 import AboutSection from "../components/AboutSection";
 import TeamShowcase from "../components/TeamShowcase";
+import Enquiry from "../components/Enquiry";
 import Footer from "../components/Footer";
          
 
@@ -15,7 +16,9 @@ const Home = () => {
             <UIBento />
             <AboutSection />
             <BentoGrid />
+            <Enquiry />
             <TeamShowcase />
+            
             <Footer />
             
             </div>
