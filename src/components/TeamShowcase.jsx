@@ -21,15 +21,7 @@ const TeamShowcase = () => {
 
   return (
     <section className="w-full max-w-7xl mx-auto px-6 py-16">
-      <div className="text-center mb-12">
-        <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-white via-green-100 to-green-400 bg-clip-text text-transparent"
-            style={{ fontFamily: 'LEMONMILK, sans-serif' }}>
-          Our Team
-        </h2>
-        <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-          Meet the talented individuals who bring innovation to life
-        </p>
-      </div>
+      
 
       {/* Tab Navigation */}
       <div className="flex justify-center mb-12">

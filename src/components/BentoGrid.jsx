@@ -5,10 +5,10 @@ import { IoCodeSlashSharp } from "react-icons/io5";
 
 const BentoGrid = () => {
   return (
-    <div className="w-full max-w-6xl mx-auto p-6 mb-[-35%] md:mb-[-4%]">
+    <div className="w-full max-w-6xl mx-auto p-6 mb-[4%] md:mb-[4%]">
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6">
         {/* Row 1 */}
-        <div className="md:col-span-2 lg:col-span-2 bg-gradient-to-br from-green-900/20 to-green-800/10 border border-green-500/30 rounded-2xl p-8 backdrop-blur-sm hover:border-white/50 transition-all duration-300 group relative overflow-hidden">
+        <div className="md:col-span-2 lg:col-span-2 bg-gradient-to-br from-gray-800/50 to-gray-900/20 border border-green-500/10 rounded-2xl p-8 backdrop-blur-sm hover:border-white/50 transition-all duration-300 group relative overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-br from-green-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
           <div className="relative z-10 h-full flex flex-col justify-between">
             <div>
@@ -26,7 +26,7 @@ const BentoGrid = () => {
           </div>
         </div>
 
-        <div className="bg-gradient-to-br from-green-800/20 to-green-700/10 border border-green-500/30 rounded-2xl p-6 backdrop-blur-sm hover:border-white/50 transition-all duration-300 group relative">
+        <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/20 border border-green-500/10 rounded-2xl p-6 backdrop-blur-sm hover:border-white/50 transition-all duration-300 group relative">
           <div className="h-full flex flex-col justify-center items-left text-left">
             <div className="w-12 h-12 bg-green-500/20 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
               <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -43,7 +43,7 @@ const BentoGrid = () => {
         </div>
 
         {/* Row 2 */}
-        <div className="bg-gradient-to-br from-green-800/20 to-green-700/10 border border-green-500/30 rounded-2xl p-6 backdrop-blur-sm hover:border-white/50 transition-all duration-300 group relative">
+        <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/20 border border-green-500/10 rounded-2xl p-6 backdrop-blur-sm hover:border-white/50 transition-all duration-300 group relative">
           <div className="h-full flex flex-col justify-center items-left text-left">
             <div className="w-12 h-12 bg-green-500/20 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
             <FaFigma className="w-6 h-6 text-white" />
@@ -57,7 +57,7 @@ const BentoGrid = () => {
           </div>
         </div>
 
-        <div className="bg-gradient-to-br from-green-800/20 to-green-700/10 border border-green-500/30 rounded-2xl p-6 backdrop-blur-sm hover:border-white/50 transition-all duration-300 group relative">
+        <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/20 border border-green-500/10 rounded-2xl p-6 backdrop-blur-sm hover:border-white/50 transition-all duration-300 group relative">
           <div className="h-full flex flex-col justify-center items-left text-left">
             <div className="w-12 h-12 bg-green-500/20 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
               <MdOutlinePermMedia className="w-6 h-6 text-white" />
@@ -71,7 +71,7 @@ const BentoGrid = () => {
           </div>
         </div>
 
-        <div className="bg-gradient-to-br from-green-800/20 to-green-700/10 border border-green-500/30 rounded-2xl p-6 backdrop-blur-sm hover:border-white/50 transition-all duration-300 group relative">
+        <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/20 border border-green-500/10 rounded-2xl p-6 backdrop-blur-sm hover:border-white/50 transition-all duration-300 group relative">
           <div className="h-full flex flex-col justify-center items-left text-left">
             <div className="w-12 h-12 bg-green-500/20 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
             <FaMobileAlt className="w-6 h-6 text-white" />

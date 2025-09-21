@@ -49,7 +49,7 @@ const AboutSection = () => {
             }}>
                 We Craft{' '}
                 <span className="relative inline-block">
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-200 via-green-300 to-green-400">
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-100/90 via-green-200/60 to-green-300/30">
                     Unforgettable
                   </span>
                   <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 rounded-full transform scale-x-0 group-hover:scale-x-100 transition-transform duration-700"></div>
