@@ -60,7 +60,7 @@ const Header = () => {
                         {/* Main image */}
                         <div className="relative z-30 w-full h-full flex items-center justify-center">
                             <img 
-                                src="/hero20.png" 
+                                src="/hero30.png" 
                                 alt="Future Technology" 
                                 className="w-full h-full object-contain transform hover:scale-105 transition-transform duration-700"
                                 style={{
