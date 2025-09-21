@@ -157,7 +157,7 @@ const Footer = () => {
         </motion.div>
       </div>
 
-      <style jsx>{`
+      <style>{`
         .bg-grid-pattern {
           background-image: linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
                           linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
