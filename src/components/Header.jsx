@@ -41,7 +41,7 @@ const Header = () => {
                         </button>
                         
                         <button className="group relative overflow-hidden bg-transparent text-white border border-gray-700 font-medium rounded-xl py-4 px-8 transition-all duration-300 hover:border-green-500/50 hover:shadow-lg hover:shadow-green-500/10">
-                            <span className="relative z-10">Learn More</span>
+                            <span className="relative z-10">Services</span>
                             <div className="absolute inset-0 bg-green-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                         </button>
                     </div>
