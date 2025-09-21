@@ -63,10 +63,10 @@ const AboutSection = () => {
               
               <div className="space-y-6 mb-10">
                 <div className="flex flex-wrap gap-3">
-                  <span className="px-3 py-1.5 bg-gradient-to-r from-green-500/10 to-green-600/10 border border-green-500/20 rounded-full text-sm text-green-400 font-medium">
+                  <span className="px-3 py-1.5 bg-gradient-to-r from-green-500/10 to-green-600/10 border border-green-500/20 rounded-full text-sm text-white font-medium">
                     Creative Solutions
                   </span>
-                  <span className="px-3 py-1.5 bg-gradient-to-r from-green-500/10 to-green-600/10 border border-green-500/20 rounded-full text-sm text-green-400 font-medium">
+                  <span className="px-3 py-1.5 bg-gradient-to-r from-green-500/10 to-green-600/10 border border-green-500/20 rounded-full text-sm text-white font-medium">
                     Custom Products
                   </span>
                   </div>
