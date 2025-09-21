@@ -20,7 +20,7 @@ const Header = () => {
                     
                     <h1 className="font-bold mb-6 leading-tight bg-gradient-to-r from-white via-green-100 to-green-400 bg-clip-text text-transparent tracking-tight"
                         style={{
-                            fontFamily: 'Inter, sans-serif',
+                            fontFamily: 'LEMONMILK, sans-serif',
                             fontSize: 'clamp(2.5rem, 5vw, 4.5rem)',
                             lineHeight: '1.1'
                         }}>
@@ -60,7 +60,7 @@ const Header = () => {
                         {/* Main image */}
                         <div className="relative z-30 w-full h-full flex items-center justify-center">
                             <img 
-                                src="/hero10.png" 
+                                src="/hero20.png" 
                                 alt="Future Technology" 
                                 className="w-full h-full object-contain transform hover:scale-105 transition-transform duration-700"
                                 style={{

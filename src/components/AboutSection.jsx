@@ -41,7 +41,12 @@ const AboutSection = () => {
           {/* Enhanced Content Section - Right */}
           <div className="w-full lg:w-1/2">
             <div className="max-w-lg mx-auto lg:mx-0">
-              <h2 className="text-3xl md:text-5xl lg:text-4xl font-black text-white mb-8 leading-tight">
+              <h2 className="text-2xl md:text-5xl lg:text-4xl font-black text-white mb-8 leading-tight"
+              style={{
+                fontFamily: 'LEMONMILK, sans-serif',
+                
+                lineHeight: '1.3'
+            }}>
                 We Craft{' '}
                 <span className="relative inline-block">
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-200 via-green-300 to-green-400">
