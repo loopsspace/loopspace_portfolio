@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { nileOperations } from '../context/nile';
+import { nileOperations } from '../context/spreadsheet';
 
 const EnquiryAdmin = () => {
   const [enquiries, setEnquiries] = useState([]);
@@ -13,9 +13,13 @@ const EnquiryAdmin = () => {
   const loadEnquiries = async () => {
     try {
       setLoading(true);
+      console.log('🔄 Loading enquiries...');
       const result = await nileOperations.getAllEnquiries();
+      console.log('📋 Admin panel received data:', result);
       setEnquiries(result.data);
+      console.log('📋 Enquiries state updated:', result.data);
     } catch (err) {
+      console.error('❌ Error loading enquiries:', err);
       setError(err.message);
     } finally {
       setLoading(false);
@@ -40,6 +44,13 @@ const EnquiryAdmin = () => {
     }
   };
 
+  const checkLocalStorage = () => {
+    const stored = localStorage.getItem('enquiries');
+    console.log('🔍 Raw localStorage data:', stored);
+    console.log('🔍 Parsed data:', JSON.parse(stored || '[]'));
+    alert(`LocalStorage contains: ${stored ? 'Data found' : 'No data'}\nCheck console for details.`);
+  };
+
   if (loading) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black flex items-center justify-center">
@@ -54,6 +65,12 @@ const EnquiryAdmin = () => {
         <div className="flex justify-between items-center mb-8">
           <h1 className="text-3xl font-bold text-white">Enquiry Admin Panel</h1>
           <div className="flex gap-4">
+            <button
+              onClick={checkLocalStorage}
+              className="px-4 py-2 bg-yellow-600 text-white rounded-lg hover:bg-yellow-700 transition-colors"
+            >
+              Check Storage
+            </button>
             <button
               onClick={loadEnquiries}
               className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"

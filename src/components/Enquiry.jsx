@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { FaInstagram, FaWhatsapp, FaPhone, FaEnvelope, FaLinkedin } from 'react-icons/fa';
 import toast, { Toaster } from 'react-hot-toast';
-import { nileOperations } from '../context/nile';
+import { nileOperations } from '../context/spreadsheet';
+
 
 const Enquiry = () => {
   // State for form data
@@ -51,37 +52,37 @@ const Enquiry = () => {
       hoverBg: "hover:bg-amber-500/20"
     }
   ];
-
-  // Handle form input changes
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData(prev => ({
+    setFormData((prev) => ({
       ...prev,
-      [name]: value
+      [name]: value,
     }));
   };
-
   // Handle form submission
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
     const toastId = toast.loading('Sending your message...');
-
+  
     try {
+      // Use nileOperations to submit enquiry
       const result = await nileOperations.submitEnquiry(formData);
-      console.log('Enquiry submitted successfully:', result);
-
-      // Success - reset form and show success toast
-      setFormData({ name: '', email: '', message: '' });
-      toast.success('We\'ll get back to you soon!', { 
+      console.log("Enquiry submitted successfully:", result);
+  
+      // Clear form
+      setFormData({ name: "", email: "", message: "" });
+      
+      // Show success message
+      toast.success("We'll get back to you soon!", {
         id: toastId,
-        duration: 4000 
+        duration: 4000,
       });
     } catch (error) {
-      console.error('Submission error:', error);
-      toast.error(error.message || 'Failed to send message. Please try again.', { 
+      console.error("Submission error:", error);
+      toast.error("Failed to send message. Please try again.", {
         id: toastId,
-        duration: 4000 
+        duration: 4000,
       });
     } finally {
       setIsSubmitting(false);

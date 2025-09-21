@@ -1,5 +1,5 @@
 import React from 'react';
-import { MdOutlinePermMedia } from "react-icons/md";
+import { MdOutlineDashboardCustomize } from "react-icons/md";
 import { FaFigma, FaMobileAlt, } from "react-icons/fa";
 import { IoCodeSlashSharp } from "react-icons/io5";
 
@@ -60,13 +60,13 @@ const BentoGrid = () => {
         <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/20 border border-green-500/10 rounded-2xl p-6 backdrop-blur-sm hover:border-white/50 transition-all duration-300 group relative">
           <div className="h-full flex flex-col justify-center items-left text-left">
             <div className="w-12 h-12 bg-green-500/20 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-              <MdOutlinePermMedia className="w-6 h-6 text-white" />
+              <MdOutlineDashboardCustomize className="w-6 h-6 text-white" />
             </div>
             <h4 className="text-lg font-bold text-white mb-2 group-hover:text-green-300 transition-colors">
-              Motion Graphics & Editing
+             Custom Software & ERP
             </h4>
             <p className="text-gray-300 text-sm leading-tight">
-              Dynamic visual storytelling
+              Dedicated workflow managemenat systems for your clients and backend
             </p>
           </div>
         </div>

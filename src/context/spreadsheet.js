@@ -1,5 +1,5 @@
 // Frontend-only enquiry management system
-// Supports both localStorage and Google Sheets integration
+// Supports Google Sheets integration with localStorage fallback
 
 // Google Sheets submission function
 const submitToGoogleSheets = async (enquiryData) => {
