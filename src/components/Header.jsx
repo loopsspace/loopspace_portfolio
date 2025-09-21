@@ -1,6 +1,13 @@
 import React from 'react';
 
 const Header = () => {
+    // Scroll to section function
+    const scrollToSection = (sectionId) => {
+        const element = document.getElementById(sectionId);
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
     return (
         <section id="header" className=" flex items-center justify-center px-4 md:px-8 mb-[10%] mt-[30%] relative z-10 overflow-hidden bg-transparent  md:mt-40">
             {/* Background elements */}
@@ -35,13 +42,17 @@ const Header = () => {
                     </p>
                     
                     <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-                        <button className="group relative overflow-hidden bg-gradient-to-br from-green-800/40 to-green-700/10 border border-green-500/30 rounded-2xl p-6 backdrop-blur-sm hover:border-green-400/50 text-white font-medium rounded-xl py-4 px-8 transition-all duration-300 hover:from-green-800 hover:to-green-950 hover:shadow-2xl hover:shadow-green-900/30 hover:-translate-y-0.5">
+                        <button 
+                            onClick={() => scrollToSection('enquiry')}
+                            className="group relative overflow-hidden bg-gradient-to-br from-green-800/40 to-green-700/10 border border-green-500/30 rounded-2xl p-6 backdrop-blur-sm hover:border-green-400/50 text-white font-medium rounded-xl py-4 px-8 transition-all duration-300 hover:from-green-800 hover:to-green-950 hover:shadow-2xl hover:shadow-green-900/30 hover:-translate-y-0.5">
                             <span className="relative z-10">Get Started</span>
                             <div className="absolute inset-0 bg-gradient-to-r from-green-500/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700 ease-out"></div>
                         </button>
                         
-                        <button className="group relative overflow-hidden bg-transparent text-white border border-gray-700 font-medium rounded-xl py-4 px-8 transition-all duration-300 hover:border-green-500/50 hover:shadow-lg hover:shadow-green-500/10">
-                            <span className="relative z-10">Services</span>
+                        <button 
+                            onClick={() => scrollToSection('about')}
+                            className="group relative overflow-hidden bg-transparent text-white border border-gray-700 font-medium rounded-xl py-4 px-8 transition-all duration-300 hover:border-green-500/50 hover:shadow-lg hover:shadow-green-500/10">
+                            <span className="relative z-10">Learn More</span>
                             <div className="absolute inset-0 bg-green-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                         </button>
                     </div>

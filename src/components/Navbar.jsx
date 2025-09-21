@@ -36,7 +36,7 @@ const GlassmorphismNavbar = () => {
     };
 
     const navItems = [
-        { name: 'Home', href: '#', scrollTo: 'header' },
+        { name: 'Get Started', href: '#', scrollTo: 'enquiry' },
         { name: 'Team', href: '#', scrollTo: 'team' },
         { name: 'Services', href: '#', scrollTo: 'services' },
         { name: 'About', href: '#', scrollTo: 'about' },
