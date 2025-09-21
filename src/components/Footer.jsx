@@ -28,7 +28,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="relative bg-gradient-to-b from-transparent to-gray-900/50 backdrop-blur-sm border-t border-gray-800/50 md:mt-[8%]">
+    <footer className="relative bg-gradient-to-b from-transparent to-gray-900/50 backdrop-blur-sm border-t border-gray-800/50 md:mt-[8%] mt-[10%]">
       {/* Background Pattern */}
       <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
       
@@ -153,17 +153,7 @@ const Footer = () => {
           <div className="text-gray-400 text-sm">
             © {currentYear} Loopsspace. All rights reserved.
           </div>
-          <div className="flex gap-6 text-sm">
-            <a href="#" className="text-gray-400 hover:text-green-400 transition-colors duration-300">
-              Privacy Policy
-            </a>
-            <a href="#" className="text-gray-400 hover:text-green-400 transition-colors duration-300">
-              Terms of Service
-            </a>
-            <a href="#" className="text-gray-400 hover:text-green-400 transition-colors duration-300">
-              Cookie Policy
-            </a>
-          </div>
+          
         </motion.div>
       </div>
 
