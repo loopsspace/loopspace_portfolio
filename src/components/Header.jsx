@@ -18,7 +18,7 @@ const Header = () => {
                         </span>
                     </div>
                     
-                    <h1 className="font-bold mb-6 leading-tight bg-gradient-to-r from-white via-green-100 to-green-400 bg-clip-text text-transparent tracking-tight"
+                    <h1 className="mb-6 leading-tight bg-gradient-to-r from-white via-green-100 to-green-400 bg-clip-text text-white tracking-tight"
                         style={{
                             fontFamily: 'LEMONMILK, sans-serif',
                             fontSize: 'clamp(2.5rem, 5vw, 4.5rem)',
