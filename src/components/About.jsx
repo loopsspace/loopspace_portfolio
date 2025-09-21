@@ -41,9 +41,7 @@ const About = () => {
                     >
                         <div className="relative group mt-[-20px] md:mt-[-20px] mb-[-20px] md:mb-[-20px]">
                             {/* Floating background elements */}
-                            <div className="absolute -top-4 -left-4 w-24 h-24 bg-green-500/20 rounded-full blur-xl group-hover:scale-110 transition-transform duration-500"></div>
-                            <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-blue-500/20 rounded-full blur-xl group-hover:scale-110 transition-transform duration-500"></div>
-                            
+                           
                             {/* Main image container */}
                             <div className="relative z-10 flex justify-center mt-[-65px] mb-[-60px]">
                                 <img 
@@ -82,7 +80,7 @@ const About = () => {
 
                         {/* Main heading */}
                         <motion.h2 
-                            className="text-left text-4xl md:text-3xl lg:text-4xl font-bold leading-tight mb-6 bg-gradient-to-r from-white via-green-100 to-green-400 bg-clip-text text-transparent"
+                            className="text-left text-3xl md:text-3xl lg:text-4xl font-bold leading-tight mb-6 bg-gradient-to-r from-white via-green-100 to-green-400 bg-clip-text text-transparent"
                             style={{ fontFamily: 'LEMONMILK, sans-serif' }}
                             initial={{ opacity: 0, y: 30 }}
                             whileInView={{ opacity: 1, y: 0 }}
