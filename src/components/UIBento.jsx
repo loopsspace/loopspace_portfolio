@@ -102,7 +102,7 @@ const UIBento = () => {
           transition={{ duration: 0.3 }}
         >
           <motion.img 
-            src="/ui16.jpg" 
+            src="/ui37.svg" 
             alt="UI Design 3" 
             className="absolute inset-0 w-full h-full object-cover"
             whileHover={{ scale: 1.1 }}
