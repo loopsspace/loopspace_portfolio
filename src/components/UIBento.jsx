@@ -116,7 +116,7 @@ const UIBento = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.3 }}
             >
-              <h4 className="text-3xl font-bold text-white mb-2">AI & Automation</h4>
+              <h4 className="text-3xl font-bold text-white mb-2">AI & Automations</h4>
               <p className="text-gray-100 text-sm">Automated workflows for your business</p>
             </motion.div>
             
