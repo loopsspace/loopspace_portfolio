@@ -43,7 +43,7 @@ const UIBento = () => {
           transition={{ duration: 0.3 }}
         >
           <motion.img 
-            src="/ui100.jpg" 
+            src="/ui37.svg"
             alt="UI Design 1" 
             className="absolute inset-0 w-full h-full object-cover"
             whileHover={{ scale: 1.1 }}
@@ -58,8 +58,8 @@ const UIBento = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.3 }}
             >
-              <h3 className="text-3xl font-bold text-white mb-3">AI & Automation</h3>
-              <p className="text-gray-100 text-sm">Automated workflows for your business</p>
+              <h3 className="text-3xl font-bold text-white mb-3">Custom Softwares</h3>
+              <p className="text-gray-100 text-sm">Dedicated dashboard for your business</p>
             </motion.div>
             
           </div>
@@ -102,7 +102,7 @@ const UIBento = () => {
           transition={{ duration: 0.3 }}
         >
           <motion.img 
-            src="/ui37.svg" 
+            src="/ui100.jpg" 
             alt="UI Design 3" 
             className="absolute inset-0 w-full h-full object-cover"
             whileHover={{ scale: 1.1 }}
@@ -116,8 +116,8 @@ const UIBento = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.3 }}
             >
-              <h4 className="text-3xl font-bold text-white mb-2">Custom Softwares</h4>
-              <p className="text-gray-100 text-sm">Dedicated dashboard for your business</p>
+              <h4 className="text-3xl font-bold text-white mb-2">AI & Automation</h4>
+              <p className="text-gray-100 text-sm">Automated workflows for your business</p>
             </motion.div>
             
           </div>
